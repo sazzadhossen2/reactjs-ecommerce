@@ -1,0 +1,11 @@
+project create----
+npm create vite@latest reactjs-ecommerce --template react
+
+react dom install---
+npm install react-router-dom localforage match-sorter sort-by
+
+tailwindcss install-----
+npm install tailwindcss @tailwindcss/vite
+
+daisyui -----------
+npm i -D daisyui@latest
