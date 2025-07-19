@@ -1,10 +1,16 @@
 import React from 'react'
+import Banner from '../components/Banner'
+import BrandsScetion from '../components/BrandsScetion'
 
 function Home() {
   return (
     <div>
-      <h1>Hlow Homw</h1>
+      <Banner/>
+   {/* Brand Card */}
+
+   <BrandsScetion/>
     </div>
+    
   )
 }
 

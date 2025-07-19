@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Nike",
+    "description": "Leading sportswear brand known for innovation and performance.",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+  },
+  {
+    "id": 2,
+    "title": "Apple",
+    "description": "Innovative tech company famous for the iPhone, MacBook, and iPad.",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+  },
+  {
+    "id": 3,
+    "title": "Samsung",
+    "description": "Global electronics brand offering smartphones, TVs, and home appliances.",
+   "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+  },
+  {
+    "id": 4,
+    "title": "Adidas",
+    "description": "Iconic sports brand producing shoes, apparel, and accessories.",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+  },
+  {
+    "id": 5,
+    "title": "Sony",
+    "description": "Renowned for electronics, gaming (PlayStation), and entertainment.",
+     "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+  }
+]

@@ -1,19 +1,35 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
  const navLinks = (
     <>
-     <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
+     <li>
+      
+      <NavLink
+  to="/"
+  className={({ isActive, isPending }) =>
+    isPending ? "text-red-600" : isActive ? "text-green-600" : "text-blue-600"
+  }
+>
+  Home
+</NavLink>
+
+     </li>
+
+          <li>
+      
+      <NavLink
+  to="/about"
+  className={({ isActive, isPending }) =>
+        isPending ? "text-red-600" : isActive ? "text-green-600" : "text-blue-600"
+  }
+>
+  About
+</NavLink>
+
+     </li>
+     
     </>
   );
   return (
@@ -38,7 +54,7 @@ function NavBar() {
         {navLinks}
       </ul>
     </div>
-    <a href='/' className="btn btn-ghost text-xl">Shop UP</a>
+    <a href='/' className="btn btn-ghost text-xl text-black">Shop UP</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -65,4 +81,3 @@ function NavBar() {
 
 export default NavBar
 
-// 56

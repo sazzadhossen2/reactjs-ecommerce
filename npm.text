@@ -9,3 +9,6 @@ npm install tailwindcss @tailwindcss/vite
 
 daisyui -----------
 npm i -D daisyui@latest
+
+for get,post, all request-------------
+npm i axios
